@@ -9,4 +9,8 @@ import (
 func Run() {
 	singleton.Run()
   factory.Run()
+  factory.RunSimpleFactory()
+  factory.RunAbstractFactory()
+  factory.RunBuilder()
 }
+
