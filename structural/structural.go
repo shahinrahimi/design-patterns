@@ -1,7 +1,10 @@
 package structural
 
-import "fmt"
+import (
+	"design-patters/structural/adaptor"
+)
 
 func Run() {
-  fmt.Println("This is structural pattern")
+  adaptor.Run()
 }
+
