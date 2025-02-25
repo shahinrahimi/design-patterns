@@ -5,6 +5,7 @@ import (
 	"design-patters/structural/bridge"
 	"design-patters/structural/composite"
 	"design-patters/structural/decorator"
+	"design-patters/structural/facade"
 )
 
 func Run() {
@@ -12,5 +13,6 @@ func Run() {
   bridge.Run()
   composite.Run()
   decorator.Run()
+  facade.Run()
 }
 
