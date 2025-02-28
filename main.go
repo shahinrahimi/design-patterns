@@ -1,6 +1,7 @@
 package main
 
 import (
+	"design-patters/behavioral"
 	"design-patters/creational"
 	"design-patters/structural"
 )
@@ -8,4 +9,5 @@ import (
 func main() {
 	creational.Run()
   structural.Run()
+  behavioral.Run()
 }
